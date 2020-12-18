@@ -1,0 +1,30 @@
+html{
+  height: 100vh;
+}
+
+header,footer{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+  background-image: url(../img/bg-register.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+
+}
+
+main{
+  height: 100%;
+  font-family: 'Playfair Display', serif;
+}
+
+#form {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  border-radius: 5px;
+  opacity: 0.95;
+}
